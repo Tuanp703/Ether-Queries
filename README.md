@@ -1,4 +1,4 @@
-# BigQuery SQL for Ethereum Classic and Ethereum
+# BigQuery SQL for Ethereum
 
 This is a repository of queries that one can run on BigQuery
 for Ethereum (ETH)
