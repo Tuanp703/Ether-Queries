@@ -1,6 +1,6 @@
 WITH block_rows AS (
   SELECT *, ROW_NUMBER() OVER (ORDER BY timestamp) AS rn
-  FROM `bigquery-public-data.ethereum_crypto_ethereum_classic.blocks`
+  FROM `bigquery-public-data.crypto_ethereum.blocks`
 ),
 time_and_hash AS (
   SELECT
